@@ -1,0 +1,5 @@
+SQL: INFANTEX
+     1006476888
+
+NETBEANS: admin
+          123456 

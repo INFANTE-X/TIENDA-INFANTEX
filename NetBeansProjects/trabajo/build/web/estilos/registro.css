@@ -1,0 +1,177 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+      position: relative;
+    }
+
+    .logo a {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav {
+      position: relative;
+    }
+
+    nav ul.nav {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul.nav > li {
+      position: relative;
+    }
+
+    nav ul.nav > li > a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 12px;
+      display: block;
+    }
+
+    nav ul.nav li ul {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #222;
+      border-radius: 5px;
+      min-width: 180px;
+      z-index: 100;
+      list-style: none;
+      padding: 10px 0;
+    }
+
+    nav ul.nav li:hover ul {
+      display: block;
+    }
+
+    nav ul.nav li ul li {
+      list-style: none;
+    }
+
+    nav ul.nav li ul li a {
+      display: block;
+      padding: 10px 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav ul.nav li ul li a:hover {
+      background-color: #333;
+    }
+
+    .container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .register-box {
+      background-color: #111;
+      padding: 40px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 450px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+    }
+
+    .register-box h2 {
+      margin-bottom: 30px;
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .register-box label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .register-box input[type="text"],
+    .register-box input[type="date"],
+    .register-box input[type="email"],
+    .register-box input[type="password"] {
+      width: 100%;
+      padding: 12px 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .register-box button {
+      width: 100%;
+      padding: 14px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 18px;
+    }
+
+    .register-box button:hover {
+      background-color: #ccc;
+    }
+
+    #mensaje {
+      margin-top: 15px;
+      text-align: center;
+      font-weight: 700;
+      color: #0f0; /* verde para éxito */
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 20px;
+      background-color: #111;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .footer-links {
+      margin: 10px 0 20px;
+    }
+
+    .footer-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }

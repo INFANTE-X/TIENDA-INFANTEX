@@ -1,0 +1,126 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .logo a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 400px;
+      background: url('74982cda-cb76-464e-a983-f5f733a447f1.png') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner-text {
+      background-color: rgba(0,0,0,0.6);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .banner-text h1 {
+      font-size: 48px;
+      font-weight: 700;
+    }
+
+    .products-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .products-section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .product {
+      background-color: #111;
+      border-radius: 8px;
+      padding: 15px;
+      width: 240px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .product p {
+      margin: 5px 0;
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 30px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .footer-links a {
+      color: #777;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-language,
+    .footer-icon {
+      margin-bottom: 10px;
+    }
